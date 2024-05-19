@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct GP6_Ivanova_TodolistApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
-        .modelContainer(
+        .modelContainer(for: ReminderList.self)
     }
 }
