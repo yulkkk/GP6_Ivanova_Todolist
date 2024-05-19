@@ -13,5 +13,6 @@ struct GP6_Ivanova_TodolistApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(
     }
 }
