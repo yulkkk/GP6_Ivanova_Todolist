@@ -7,32 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3AA20432BE94CCE00BDC9EC /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20422BE94CCE00BDC9EC /* Reminder.swift */; };
-		B3AA20452BE94FBF00BDC9EC /* ReminderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20442BE94FBF00BDC9EC /* ReminderList.swift */; };
-		B3AA20472BE9530600BDC9EC /* ReminderListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20462BE9530600BDC9EC /* ReminderListRowView.swift */; };
-		B3AA20492BF8B5FA00BDC9EC /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20482BF8B5FA00BDC9EC /* ReminderListView.swift */; };
-		B3AA204B2BF9750400BDC9EC /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA204A2BF9750400BDC9EC /* ReminderRowView.swift */; };
-		B3AA204F2BF9E65100BDC9EC /* ListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA204E2BF9E65100BDC9EC /* ListCardView.swift */; };
-		B3AA20512BF9F49F00BDC9EC /* CreateSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20502BF9F49F00BDC9EC /* CreateSectionView.swift */; };
-		B3EE792C2B9CA00200300254 /* GP6_Ivanova_TodolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE792B2B9CA00200300254 /* GP6_Ivanova_TodolistApp.swift */; };
-		B3EE792E2B9CA00200300254 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE792D2B9CA00200300254 /* HomeView.swift */; };
-		B3EE79302B9CA00500300254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EE792F2B9CA00500300254 /* Assets.xcassets */; };
-		B3EE79332B9CA00500300254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EE79322B9CA00500300254 /* Preview Assets.xcassets */; };
+		B3AA20622C0A4F8900BDC9EC /* ToDoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20612C0A4F8900BDC9EC /* ToDoRepository.swift */; };
+		B3AA20642C0A4FAA00BDC9EC /* ToDoRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20632C0A4FAA00BDC9EC /* ToDoRepositoryImpl.swift */; };
+		B3AA20662C0A4FBE00BDC9EC /* ToDoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20652C0A4FBE00BDC9EC /* ToDoDataStore.swift */; };
+		B3AA20682C0A4FE900BDC9EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20672C0A4FE900BDC9EC /* SceneDelegate.swift */; };
+		B3AA206A2C0A4FFD00BDC9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA20692C0A4FFD00BDC9EC /* AppDelegate.swift */; };
+		B3AA206C2C0A502000BDC9EC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA206B2C0A502000BDC9EC /* TableViewController.swift */; };
+		B3AA206E2C0A507F00BDC9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AA206D2C0A507F00BDC9EC /* LaunchScreen.storyboard */; };
+		B3AA20702C0A50B500BDC9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AA206F2C0A50B500BDC9EC /* Assets.xcassets */; };
+		B3AA20772C0A594D00BDC9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AA20792C0A594D00BDC9EC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3AA20422BE94CCE00BDC9EC /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		B3AA20442BE94FBF00BDC9EC /* ReminderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderList.swift; sourceTree = "<group>"; };
-		B3AA20462BE9530600BDC9EC /* ReminderListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListRowView.swift; sourceTree = "<group>"; };
-		B3AA20482BF8B5FA00BDC9EC /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
-		B3AA204A2BF9750400BDC9EC /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
-		B3AA204E2BF9E65100BDC9EC /* ListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCardView.swift; sourceTree = "<group>"; };
-		B3AA20502BF9F49F00BDC9EC /* CreateSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSectionView.swift; sourceTree = "<group>"; };
+		B3AA20612C0A4F8900BDC9EC /* ToDoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepository.swift; sourceTree = "<group>"; };
+		B3AA20632C0A4FAA00BDC9EC /* ToDoRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRepositoryImpl.swift; sourceTree = "<group>"; };
+		B3AA20652C0A4FBE00BDC9EC /* ToDoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDataStore.swift; sourceTree = "<group>"; };
+		B3AA20672C0A4FE900BDC9EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3AA20692C0A4FFD00BDC9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3AA206B2C0A502000BDC9EC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B3AA206D2C0A507F00BDC9EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3AA206F2C0A50B500BDC9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3AA20752C0A513E00BDC9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AA20782C0A594D00BDC9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3EE79282B9CA00200300254 /* GP6_Ivanova_Todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GP6_Ivanova_Todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3EE792B2B9CA00200300254 /* GP6_Ivanova_TodolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GP6_Ivanova_TodolistApp.swift; sourceTree = "<group>"; };
-		B3EE792D2B9CA00200300254 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B3EE792F2B9CA00500300254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3EE79322B9CA00500300254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,42 +43,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B3AA203B2BE93FC000BDC9EC /* Model */ = {
+		B3AA205E2C0A4F2300BDC9EC /* presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B3AA20422BE94CCE00BDC9EC /* Reminder.swift */,
-				B3AA20442BE94FBF00BDC9EC /* ReminderList.swift */,
+				B3AA20672C0A4FE900BDC9EC /* SceneDelegate.swift */,
+				B3AA20692C0A4FFD00BDC9EC /* AppDelegate.swift */,
+				B3AA206B2C0A502000BDC9EC /* TableViewController.swift */,
+				B3AA206D2C0A507F00BDC9EC /* LaunchScreen.storyboard */,
+				B3AA206F2C0A50B500BDC9EC /* Assets.xcassets */,
+				B3AA20792C0A594D00BDC9EC /* Main.storyboard */,
 			);
-			path = Model;
+			path = presentation;
 			sourceTree = "<group>";
 		};
-		B3AA203D2BE9403100BDC9EC /* View */ = {
+		B3AA205F2C0A4F7000BDC9EC /* domain */ = {
 			isa = PBXGroup;
 			children = (
-				B3AA204D2BF9E5C500BDC9EC /* Reminder */,
-				B3AA204C2BF9E5AF00BDC9EC /* Home */,
+				B3AA20612C0A4F8900BDC9EC /* ToDoRepository.swift */,
 			);
-			path = View;
+			path = domain;
 			sourceTree = "<group>";
 		};
-		B3AA204C2BF9E5AF00BDC9EC /* Home */ = {
+		B3AA20602C0A4F7800BDC9EC /* data */ = {
 			isa = PBXGroup;
 			children = (
-				B3EE792D2B9CA00200300254 /* HomeView.swift */,
-				B3AA20502BF9F49F00BDC9EC /* CreateSectionView.swift */,
-				B3AA20462BE9530600BDC9EC /* ReminderListRowView.swift */,
-				B3AA204E2BF9E65100BDC9EC /* ListCardView.swift */,
+				B3AA20632C0A4FAA00BDC9EC /* ToDoRepositoryImpl.swift */,
+				B3AA20652C0A4FBE00BDC9EC /* ToDoDataStore.swift */,
 			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		B3AA204D2BF9E5C500BDC9EC /* Reminder */ = {
-			isa = PBXGroup;
-			children = (
-				B3AA20482BF8B5FA00BDC9EC /* ReminderListView.swift */,
-				B3AA204A2BF9750400BDC9EC /* ReminderRowView.swift */,
-			);
-			path = Reminder;
+			path = data;
 			sourceTree = "<group>";
 		};
 		B3EE791F2B9CA00200300254 = {
@@ -103,21 +92,12 @@
 		B3EE792A2B9CA00200300254 /* GP6_Ivanova_Todolist */ = {
 			isa = PBXGroup;
 			children = (
-				B3EE792B2B9CA00200300254 /* GP6_Ivanova_TodolistApp.swift */,
-				B3AA203D2BE9403100BDC9EC /* View */,
-				B3AA203B2BE93FC000BDC9EC /* Model */,
-				B3EE792F2B9CA00500300254 /* Assets.xcassets */,
-				B3EE79312B9CA00500300254 /* Preview Content */,
+				B3AA20602C0A4F7800BDC9EC /* data */,
+				B3AA205F2C0A4F7000BDC9EC /* domain */,
+				B3AA205E2C0A4F2300BDC9EC /* presentation */,
+				B3AA20752C0A513E00BDC9EC /* Info.plist */,
 			);
 			path = GP6_Ivanova_Todolist;
-			sourceTree = "<group>";
-		};
-		B3EE79312B9CA00500300254 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B3EE79322B9CA00500300254 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3EE79332B9CA00500300254 /* Preview Assets.xcassets in Resources */,
-				B3EE79302B9CA00500300254 /* Assets.xcassets in Resources */,
+				B3AA206E2C0A507F00BDC9EC /* LaunchScreen.storyboard in Resources */,
+				B3AA20772C0A594D00BDC9EC /* Main.storyboard in Resources */,
+				B3AA20702C0A50B500BDC9EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,19 +171,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AA20492BF8B5FA00BDC9EC /* ReminderListView.swift in Sources */,
-				B3AA20512BF9F49F00BDC9EC /* CreateSectionView.swift in Sources */,
-				B3AA204B2BF9750400BDC9EC /* ReminderRowView.swift in Sources */,
-				B3AA20432BE94CCE00BDC9EC /* Reminder.swift in Sources */,
-				B3AA20472BE9530600BDC9EC /* ReminderListRowView.swift in Sources */,
-				B3EE792E2B9CA00200300254 /* HomeView.swift in Sources */,
-				B3EE792C2B9CA00200300254 /* GP6_Ivanova_TodolistApp.swift in Sources */,
-				B3AA204F2BF9E65100BDC9EC /* ListCardView.swift in Sources */,
-				B3AA20452BE94FBF00BDC9EC /* ReminderList.swift in Sources */,
+				B3AA206A2C0A4FFD00BDC9EC /* AppDelegate.swift in Sources */,
+				B3AA20622C0A4F8900BDC9EC /* ToDoRepository.swift in Sources */,
+				B3AA20662C0A4FBE00BDC9EC /* ToDoDataStore.swift in Sources */,
+				B3AA20682C0A4FE900BDC9EC /* SceneDelegate.swift in Sources */,
+				B3AA206C2C0A502000BDC9EC /* TableViewController.swift in Sources */,
+				B3AA20642C0A4FAA00BDC9EC /* ToDoRepositoryImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3AA20792C0A594D00BDC9EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3AA20782C0A594D00BDC9EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B3EE79342B9CA00500300254 /* Debug */ = {
@@ -331,13 +320,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GP6_Ivanova_Todolist/Preview Content\"";
 				DEVELOPMENT_TEAM = ZU835Y7KDA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = GP6_Ivanova_Todolist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,13 +349,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GP6_Ivanova_Todolist/Preview Content\"";
 				DEVELOPMENT_TEAM = ZU835Y7KDA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = GP6_Ivanova_Todolist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
